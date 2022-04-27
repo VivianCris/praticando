@@ -1,0 +1,27 @@
+<script>
+  const numbers = [2, 99, 5, 1, 19, 2, 1234, 189, 12, 39];
+
+  let smallNumber = 1000000;
+  let biggestNumber = 0;
+  let sumNumbers = 0;
+
+  for (i = 0; i <= numbers.length; i++) {
+    if (numbers[i] > biggestNumber) {
+      biggestNumber = numbers[i];
+    }
+
+    if (numbers[i] < smallNumber) {
+      smallNumber = numbers[i];
+    }
+
+    sumNumbers += numbers[i];
+  }
+
+  const averageNumbers = sumNumbers / numbers.length;
+
+  console.log(numbers);
+  console.log("The biggest number in the array is: " + biggestNumber);
+  console.log("The smallest number in the array is: " + smallNumber);
+  console.log("The sum of all numbers in the array is: " + sumNumbers);
+  console.log("The average numbers in the array is: " + averageNumbers);
+</script>

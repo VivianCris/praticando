@@ -1,0 +1,19 @@
+<script>
+  let numbers = [12, 24, 32, 4, 16, 20, 8, 40, 28, 36];
+
+  function reverseSort(a, b) {
+    if (a < b) {
+      return +1;
+    }
+
+    if (a > b) {
+      return -1;
+    }
+
+    return 0;
+  }
+
+  numbers.sort(reverseSort);
+
+  console.log(numbers);
+</script>

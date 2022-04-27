@@ -1,0 +1,12 @@
+<script>
+  const numbers = [2, 99, 5, 1, 19, 23, 10, 189, 12, 39];
+  let smallNumber = 1000000;
+
+  for (i = 0; i <= numbers.length; i++) {
+    if (numbers[i] < smallNumber) {
+      smallNumber = numbers[i];
+    }
+  }
+
+  console.log(smallNumber);
+</script>

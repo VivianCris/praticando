@@ -1,0 +1,19 @@
+<script>
+  const numbers = [2, 99, 5, 1, 19, 2, 1234, 189, 12, 39];
+
+  let smallNumber = 1000000;
+  let biggestNumber = 0;
+
+  for (i = 0; i <= numbers.length; i++) {
+    if (numbers[i] > biggestNumber) {
+      biggestNumber = numbers[i];
+    }
+
+    if (numbers[i] < smallNumber) {
+      smallNumber = numbers[i];
+    }
+  }
+
+  console.log(biggestNumber);
+  console.log(smallNumber);
+</script>
