@@ -117,3 +117,11 @@ function descendingNumbers(num1, num2, num3, num4, num5) {
 
   document.write("<br /><br />");
 }
+
+function double(number) {
+  let double = number * 2;
+
+  document.write("The double of the number is " + double);
+
+  document.write("<br /><br />");
+}
