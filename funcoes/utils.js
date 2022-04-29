@@ -125,3 +125,28 @@ function double(number) {
 
   document.write("<br /><br />");
 }
+
+function calculateAge(year, yearOfBirth) {
+  let currentYear = year;
+  let age = year - yearOfBirth;
+
+  document.write("Your age is " + age);
+  document.write("<br /><br />");
+}
+
+function haveADriveLicense(age) {
+  let ofAge = 18;
+
+  if (age >= ofAge) {
+    document.write("Yes, you can drive");
+  } else {
+    document.write("No, you are too young to drive");
+  }
+  document.write("<br /><br />");
+}
+
+function multiply(number1, number2) {
+  let timesTo = number1 * number2;
+
+  document.write("The result of the multiplication is " + timesTo);
+}
